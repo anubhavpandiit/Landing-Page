@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="">
+        </div>
+        <button id="menu-btn" class="hamburger">☰</button>
+        <nav id="nav-menu">
+            <a href="#">Home</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome!</h1>
+        <p>This is a Simple Responsive Web Page </p>
+        <button onclick="showAlert()">Click Me</button>
+    </section>
+
+    <section id="services" class="services-container">
+        <div class="card"><h3>Service A</h3><p>Info 1</p></div>
+        <div class="card"><h3>Service B</h3><p>Info 2</p></div>
+        <div class="card"><h3>Service C</h3><p>Info 3</p></div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Your Name">
+        <button>Submit</button>
+    </section>
+
+    <footer>
+        <p>A Responsive Website 2026 </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
